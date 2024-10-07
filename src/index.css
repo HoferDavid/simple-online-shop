@@ -1,7 +1,16 @@
+.main-container {
+    display: flex;
+    gap: 2rem;
+}
+
 .product-container {
   display: flex;
   gap: 1rem;
   padding: 0 2rem;
+}
+
+.shopping-cart {
+    min-width: 20vw;
 }
 
 @media (max-width: 850px) {
